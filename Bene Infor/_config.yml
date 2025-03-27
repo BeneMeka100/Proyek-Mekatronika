@@ -1,6 +1,7 @@
+
 # Site settings
 title: Proyek Mekatronika
-description: A simple description of my site
+description: Proyek UKK Mekatronika
 baseurl: "/Proyek-Mekatronika" # the subpath of your site, e.g. /blog
 url: "https://github.com/BeneMeka100/Proyek-Mekatronika" # the base hostname & protocol for your site
 
@@ -45,3 +46,6 @@ netlify:
   functions_directory: "netlify/functions"
   deploy_log_visibility: "Logs are public"
   build_status: "Active"
+
+# Source Directory
+source: .
