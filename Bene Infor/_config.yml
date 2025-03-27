@@ -14,6 +14,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor/bundle/
+  - netlify/functions
 
 # Plugins
 plugins:
@@ -27,3 +28,20 @@ paginate_path: "/page:num/"
 # Markdown settings
 kramdown:
   input: GFM
+
+# Jekyll commands
+jekyll_commands:
+  build: "jekyll build"
+  serve: "jekyll serve"
+  clean: "jekyll clean"
+
+# Netlify settings
+netlify:
+  runtime: "Not set"
+  base_directory: "/"
+  package_directory: "Not set"
+  build_command: "jekyll build"
+  publish_directory: "_site"
+  functions_directory: "netlify/functions"
+  deploy_log_visibility: "Logs are public"
+  build_status: "Active"
