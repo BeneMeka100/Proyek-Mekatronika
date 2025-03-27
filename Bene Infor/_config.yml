@@ -1,8 +1,8 @@
 # Site settings
-title: My Jekyll Site
+title: Proyek Mekatronika
 description: A simple description of my site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "/Proyek-Mekatronika" # the subpath of your site, e.g. /blog
+url: "https://github.com/BeneMeka100/Proyek-Mekatronika" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
