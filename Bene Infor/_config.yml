@@ -1,0 +1,29 @@
+# Site settings
+title: My Jekyll Site
+description: A simple description of my site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Markdown settings
+kramdown:
+  input: GFM
